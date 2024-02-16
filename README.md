@@ -19,7 +19,7 @@ Fill your .env file with needed variables as it describes in .env.example:
 | RPC_FORK | string | RPC to fork                      |
 | CHAIN_ID | string | Chain ID (hardhat standard 31337)|
 
-Than run
+Then run
 
 ```bash
 $ npx hardhat node
