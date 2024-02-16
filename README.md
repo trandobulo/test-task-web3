@@ -4,7 +4,7 @@ Test project for getting balance and transferring ERC20 standard tokens
 
 ## Installation
 
-1.Clone the repo then run
+1. Clone the repo then run
 
 ```bash
 $ npm install
