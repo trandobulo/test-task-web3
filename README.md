@@ -11,10 +11,6 @@ $ npm install
 ```
 2. Assuming you don't want to use real blockchain for testing you need to run fork blockchain locally in separate terminal window:
 
-```bash
-$ npx hardhat node
-```
-
 Fill your .env file with needed variables as it describes in .env.example:
 
 | Const    | Type   | Description                      |
@@ -22,6 +18,12 @@ Fill your .env file with needed variables as it describes in .env.example:
 | RPC_URL  | string | Local blockchain hardhat RPC     |
 | RPC_FORK | string | RPC to fork                      |
 | CHAIN_ID | string | Chain ID (hardhat standard 31337)|
+
+Than run
+
+```bash
+$ npx hardhat node
+```
 
 3. If you want to test in real network use real RPC endpoint in RPC_URL, and corresponding CHAIN_ID. I that case you can leave RPC_FORK empty and not run ``` npx hardhat node ```
 
